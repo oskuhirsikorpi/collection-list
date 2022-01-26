@@ -1,0 +1,116 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: gray;
+}
+
+
+header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.maindiv {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.hakualue {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 5px;
+    padding: 1em;
+    background-color: olive;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.kommenttiteksti {
+    font-weight: bold;
+    text-align: center;
+}
+
+.orderinfo tr th {
+    font-size: 1em;
+    text-align: left;
+}
+
+
+.tilaus {
+	border-radius:13px;
+	cursor:pointer;
+	padding:2rem 20px;
+}
+
+.tilaus:hover {
+    background-color: olive;
+}
+
+/* TABLE */
+
+table.greenTable {
+    background-color: #555555;
+    width: 100%;
+    text-align: center;
+  }
+  table.greenTable td, table.greenTable th {
+    border: 1px solid #555555;
+    padding: 5px 10px;
+  }
+  table.greenTable tbody td {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  table.greenTable td:nth-child(even) {
+    background: olive;
+  }
+  table.greenTable thead {
+    background: #95B279;
+  }
+  table.greenTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+    border-left: 2px solid #555555;
+  }
+  table.greenTable thead th:first-child {
+    border-left: none;
+  }
+
+
+/* PDF TULOSTUS */
+
+.tulostus {
+	background-color:olive;
+	border-radius:28px;
+	border:1px solid olive;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+
+	font-weight:bold;
+}
+
+.tulostus:hover {
+	background-color:#44c767
+    
+}
+
+.tulostusNappi {
+    width: 4rem;
+    height: 4rem;
+}
+
+.tulostusNappi:hover {
+    cursor: pointer;
+}
